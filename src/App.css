@@ -1,0 +1,53 @@
+/* Add your global styles here */
+
+/* Styling for the slider container */
+h2 {
+  text-align: center;
+}
+.slider-container {
+  width: 80%; /* Adjust as needed */
+  margin: 0 auto;
+}
+
+/* Styling for each member card */
+.grid-card {
+  text-align: center;
+  
+  margin: 10px 0px;
+}
+
+/* Styling for member images */
+.grid-card img {
+  max-width: 100%;
+  width: 320px;
+  height: auto;
+  align-items: center;
+}
+
+/* Styling for member names */
+.grid-card h2 {
+  margin-top: 10px;
+  font-size: 1.5rem;
+}
+
+/* Styling for member descriptions */
+.grid-card p {
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+
+  .slider-container{
+    max-width: 100%;
+    width:70%;
+  }
+  
+  .grid-card img {
+    align-items: center;
+    max-width: 100%;
+    width: 100%;
+    margin: auto;
+  
+  }
+}
